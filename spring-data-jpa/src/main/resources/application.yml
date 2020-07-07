@@ -1,0 +1,27 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/temp?user=root&password=root&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    name: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1
+  jpa:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update
+#            validate               加载 hibernate 时，验证创建数据库表结构
+#            create                 每次加载 hibernate，重新创建数据库表结构，这就是导致数据库表数据丢失的原因
+#            create-drop            加载 hibernate 时创建，退出是删除表结构
+#            update                 加载 hibernate 自动更新数据库结构
+
+

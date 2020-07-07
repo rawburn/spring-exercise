@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/eureka-client/eureka-client.iml" filepath="$PROJECT_DIR$/spring-eureka/eureka-client/eureka-client.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/eureka-server/eureka-server.iml" filepath="$PROJECT_DIR$/spring-eureka/eureka-server/eureka-server.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-actuator/spring-actuator.iml" filepath="$PROJECT_DIR$/spring-actuator/spring-actuator.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-boot/spring-boot.iml" filepath="$PROJECT_DIR$/spring-boot/spring-boot.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cache/spring-cache.iml" filepath="$PROJECT_DIR$/spring-cache/spring-cache.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-cache2/spring-cache2.iml" filepath="$PROJECT_DIR$/spring-cache2/spring-cache2.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" filepath="$PROJECT_DIR$/spring-data-jpa/spring-data-jpa.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-eureka/spring-eureka.iml" filepath="$PROJECT_DIR$/spring-eureka/spring-eureka.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/spring-exercise.iml" filepath="$PROJECT_DIR$/.idea/spring-exercise.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-gateway/spring-gateway.iml" filepath="$PROJECT_DIR$/spring-gateway/spring-gateway.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-reactive/spring-reactive.iml" filepath="$PROJECT_DIR$/spring-reactive/spring-reactive.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-retry/spring-retry.iml" filepath="$PROJECT_DIR$/spring-retry/spring-retry.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-security/spring-security.iml" filepath="$PROJECT_DIR$/spring-security/spring-security.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-webservice/spring-webservice.iml" filepath="$PROJECT_DIR$/spring-webservice/spring-webservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/spring-websocket/spring-websocket.iml" filepath="$PROJECT_DIR$/spring-websocket/spring-websocket.iml" />
+    </modules>
+  </component>
+</project>

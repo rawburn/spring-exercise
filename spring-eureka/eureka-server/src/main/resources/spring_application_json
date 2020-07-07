@@ -1,0 +1,26 @@
+'{
+     "server":{
+         "port":7002
+     },
+     "eureka":{
+         "instance":{
+             "hostname":"peer2",
+             "non-secure-port-enabled":true
+         },
+         "client":{
+             "healthcheck":{
+                 "enabled":true
+             },
+             "register-with-eureka":false,
+             "fetch-registry":false,
+             "service-url":{
+                 "defaultZone":"http://peer1:7001/eureka"
+             }
+         }
+     },
+     "spring":{
+         "application":{
+             "name":"Eureka-Server"
+         }
+     }
+ }'

@@ -1,0 +1,49 @@
+server:
+  port: 8080
+
+management:
+  server:
+    port: 9999
+    servlet:
+      context-path: "/management"
+    ssl:
+      enabled: false
+  health:
+    db:
+      enabled: true
+    defaults:
+      enabled: true
+    status:
+      http-mapping:
+        FATAL: 503
+      order:
+        - FATAL
+        - DOWN
+        - OUT_OF_SERVICE
+        - UNKNOWN
+        - UP
+  endpoint:
+    health:
+      show-details: always
+  endpoints:
+    web:
+      exposure:
+#        include: ["beans", "health", "mappings", "metrics"]
+        include: "*"
+
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/temp?user=root&password=root&useUnicode=true&characterEncoding=UTF-8&autoReconnect=true&useSSL=false&allowPublicKeyRetrieval=true
+    name: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    hikari:
+      minimum-idle: 5
+      maximum-pool-size: 15
+      auto-commit: true
+      idle-timeout: 30000
+      pool-name: HikariCP
+      max-lifetime: 1800000
+      connection-timeout: 30000
+      connection-test-query: SELECT 1

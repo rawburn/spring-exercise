@@ -1,0 +1,50 @@
+server:
+  port: 8080
+
+spring:
+  cloud:
+    gateway:
+      routes:
+        - id: after_route
+          uri: https://www.baidu.com/1
+          predicates:
+            - After=2018-12-22T17:12:13.560+08:00[Asia/Shanghai]
+        - id: before_route
+          uri: https://www.baidu.com//2
+          predicates:
+            - Before=2018-12-22T17:12:13.560+08:00[Asia/Shanghai]
+        - id: between_route
+          uri: https://www.baidu.com//3
+          predicates:
+            - Between=2018-12-22T17:12:13.560+08:00[Asia/Shanghai], 2019-12-22T17:12:13.560+08:00[Asia/Shanghai]
+        - id: cookie_route
+          uri: https://www.baidu.com//4
+          predicates:
+            - Cookie=user, raw*
+        - id: header_route
+          uri: https://www.baidu.com//5
+          predicates:
+            - Header=X-Request-Id, \d+
+        - id: host_route
+          uri: https://www.baidu.com//6
+          predicates:
+            - Host=**.rawburn.net
+        - id: method_route
+          uri: https://www.baidu.com//7
+          predicates:
+            - Method=GET
+        - id: path_route
+          uri: https://www.baidu.com//8
+          predicates:
+            - Path=/foo/{segment}
+        - id: query_route
+          uri: https://www.baidu.com//9
+          predicates:
+            - Query=name, raw*
+        - id: remoteaddr_route
+          uri: https://www.baidu.com/10
+          predicates:
+            - RemoteAddr=192.168.1.1/24
+logging:
+  pattern:
+    level: info
