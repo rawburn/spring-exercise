@@ -7,33 +7,65 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="spring-retry" />
-        <module name="eureka-server" />
+        <module name="spring-websocket" />
+        <module name="spring-cloud-eureka" />
+        <module name="spring-cloud-config" />
+        <module name="spring-cloud-bus" />
+        <module name="spring-webservice" />
+        <module name="spring-cloud-sleuth" />
         <module name="eureka-client" />
+        <module name="spring-cloud-gateway" />
+        <module name="spring-cloud-ribbon" />
+        <module name="spring-security" />
+        <module name="alibaba" />
+        <module name="spring-cloud-stream" />
         <module name="spring-cache" />
         <module name="spring-reactive" />
-        <module name="spring-gateway" />
-        <module name="spring-security" />
+        <module name="spring-boot-actuator" />
+        <module name="spring-cloud-zuul" />
+        <module name="eureka-server" />
+        <module name="spring-cloud-hystrix" />
+        <module name="spring-data-mongo" />
+        <module name="spring-cloud-feign" />
         <module name="spring-data-jpa" />
-        <module name="spring-cache2" />
-        <module name="spring-webservice" />
-        <module name="spring-websocket" />
-        <module name="spring-actuator" />
-        <module name="spring-boot" />
+        <module name="spring-cloud-appllo" />
+        <module name="spring-retry" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="alibaba" target="1.8" />
       <module name="eureka-client" target="1.8" />
       <module name="eureka-server" target="1.8" />
+      <module name="netflix" target="1.8" />
       <module name="spring-actuator" target="1.8" />
+      <module name="spring-apollo" target="1.8" />
       <module name="spring-boot" target="1.8" />
-      <module name="spring-cache" target="1.6" />
+      <module name="spring-boot-actuator" target="1.8" />
+      <module name="spring-boot-jpa" target="1.8" />
+      <module name="spring-cache" target="8" />
       <module name="spring-cache2" target="1.8" />
+      <module name="spring-cloud" target="1.8" />
+      <module name="spring-cloud-appllo" target="1.8" />
+      <module name="spring-cloud-bus" target="1.8" />
+      <module name="spring-cloud-config" target="1.8" />
+      <module name="spring-cloud-eureka" target="1.8" />
+      <module name="spring-cloud-feign" target="1.8" />
+      <module name="spring-cloud-gateway" target="1.8" />
+      <module name="spring-cloud-hystrix" target="1.8" />
+      <module name="spring-cloud-ribbon" target="1.8" />
+      <module name="spring-cloud-sleuth" target="1.8" />
+      <module name="spring-cloud-stream" target="1.8" />
+      <module name="spring-cloud-zuul" target="1.8" />
+      <module name="spring-clound-config" target="1.8" />
+      <module name="spring-config" target="1.8" />
+      <module name="spring-data" target="1.8" />
       <module name="spring-data-jpa" target="1.8" />
+      <module name="spring-data-mongo" target="1.8" />
       <module name="spring-eureka" target="1.8" />
       <module name="spring-exercise" target="1.8" />
-      <module name="spring-gateway" target="1.8" />
+      <module name="spring-nacos" target="1.8" />
       <module name="spring-reactive" target="1.8" />
+      <module name="spring-redis" target="1.8" />
       <module name="spring-retry" target="1.8" />
       <module name="spring-security" target="1.8" />
       <module name="spring-webservice" target="1.8" />

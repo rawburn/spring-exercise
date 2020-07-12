@@ -3,24 +3,24 @@
          xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <parent>
-        <groupId>net.rawburn</groupId>
         <artifactId>spring-exercise</artifactId>
+        <groupId>net.rawburn</groupId>
         <version>1.0.0</version>
     </parent>
-
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>net.rawburn</groupId>
-    <artifactId>spring-boot</artifactId>
+    <artifactId>spring-cloud</artifactId>
     <packaging>pom</packaging>
     <modules>
-        <module>spring-boot-actuator</module>
-        <module>spring-data</module>
-        <module>spring-reactive</module>
-        <module>spring-retry</module>
-        <module>spring-security</module>
-        <module>spring-webservice</module>
-        <module>spring-websocket</module>
+        <module>netflix</module>
+        <module>alibaba</module>
+        <module>spring-cloud-config</module>
+        <module>spring-cloud-bus</module>
+        <module>spring-cloud-stream</module>
+        <module>spring-cloud-sleuth</module>
+        <module>spring-cloud-gateway</module>
+        <module>spring-cloud-appllo</module>
     </modules>
+
 
 </project>

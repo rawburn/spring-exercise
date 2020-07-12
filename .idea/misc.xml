@@ -13,6 +13,17 @@
         <option value="$PROJECT_DIR$/pom.xml" />
       </list>
     </option>
+    <option name="ignoredFiles">
+      <set>
+        <option value="$PROJECT_DIR$/spring-actuator/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/spring-boot-jpa/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/spring-data/spring-cache2/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-boot/spring-data/spring-redis/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-config/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-eureka/pom.xml" />
+        <option value="$PROJECT_DIR$/spring-nacos/pom.xml" />
+      </set>
+    </option>
   </component>
   <component name="ProjectRootManager" version="2" project-jdk-name="1.8" project-jdk-type="JavaSDK" />
 </project>
